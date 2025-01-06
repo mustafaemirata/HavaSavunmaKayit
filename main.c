@@ -206,28 +206,28 @@ int main()
         {
         // Uzun Menzil EKleme İşlemi
         case 1:
-            printf("Eklenecek Uzun Menzilli Sistem İsmi: ");
+            printf("Eklenecek Uzun Menzilli Hava Sistem İsmi: ");
             scanf(" %[^\n]s", isim);
             uzunMenzil = uzunSistemEkle(uzunMenzil, isim);
             printf("Sistem eklendi!\n");
             break;
         // Orta Menzil Ekleme İşlemi
         case 2:
-            printf("Eklenecek Orta Menzilli Sistem İsmi: ");
+            printf("Eklenecek Orta Menzilli Hava Sistem İsmi: ");
             scanf(" %[^\n]s", isim);
             ortaKuyrukEkle(ortaMenzil, isim);
             printf("Sistem eklendi!\n");
             break;
         // Kısa Menzil Ekleme İşlemi
         case 3:
-            printf("Eklenecek Kısa Menzilli Sistem İsmi: ");
+            printf("Eklenecek Kısa Menzilli Hava Sistem İsmi: ");
             scanf(" %[^\n]s", isim);
             kisaYiginEkle(kisaMenzil, isim);
             printf("Sistem eklendi!\n");
             break;
         // Uzun Menzil Silme İşlemi
         case 4:
-            printf("Silinecek Uzun Menzilli Sistem İsmi: ");
+            printf("Silinecek Uzun Menzilli Hava Sistem İsmi: ");
             scanf(" %[^\n]s", isim);
             uzunMenzil = uzunSistemSil(uzunMenzil, isim);
             break;
